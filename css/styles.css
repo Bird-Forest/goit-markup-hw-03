@@ -1,0 +1,214 @@
+/* Basics */
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+  --font-family: 'Roboto', sans-serif;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: var(--color-white);
+  color: var(--color-slate);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo-brend {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  display: flex;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+.hed {
+  color: var(--color-navy-blue);
+}
+.nav-page {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.nav-page:hover {
+  color: var(--color-ocean);
+}
+.nav-page:focus {
+  color: var(--color-ocean);
+}
+.contact {
+  font-style: normal;
+}
+.contact-nav {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+.contact-nav:hover {
+  color: var(--color-ocean);
+}
+.contact-nav:focus {
+  color: var(--color-ocean);
+}
+/* S1 Hero section */
+.hero {
+  background: var(--color-grey);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+.hero-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background: var(--color-iris);
+  color: var(--color-white);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--color-ocean);
+  color: var(--color-white);
+}
+/* S2 Professional Sectoin */
+.prof-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.prof-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+/* S3 Product Sectiont */
+.prod-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-grey);
+}
+/* S4 Team Section */
+.team {
+  background: var(--color-cloud);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-grey);
+}
+.team-item {
+  background: var(--color-white);
+}
+.team-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+/* Footer */
+.footer {
+  background: var(--color-navy-blue);
+}
+.fot {
+  color: var(--color-cloud);
+}
+.foot-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+}
+/* Page Portfolio  */
+/* Heder  */
+body {
+  counter-reset: var(--color-slate);
+}
+/* Filter Section */
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
+  background: var(--color-cloud);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background: var(--color-ocean);
+  color: var(--color-white);
+}
+/* Portfolio Section*/
+.row-item {
+  background: #e7e9fc;
+}
+.row-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.row-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
