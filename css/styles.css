@@ -20,11 +20,46 @@ body {
   background-color: var(--color-white);
   color: var(--color-slate);
 }
+/* Технічний елемент, який потім потрібно прибрати */
+.item * {
+  border: 1px solid tomato;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 .link {
   text-decoration: none;
+}
+li:not(:last-child) {
+  margin-bottom: 0;
+}
+/* Ховає заголовки */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .logo-brend {
   font-family: 'Raleway', sans-serif;
@@ -32,10 +67,11 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   display: flex;
-  text-transform: uppercase;
+  flex-direction: row;
+  align-items: center;
   color: var(--color-iris);
 }
 .hed {
