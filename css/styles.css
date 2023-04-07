@@ -65,8 +65,7 @@ button {
   width: 1158px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px 0 15px;
   outline: 2px solid red;
 }
 /* Heder */
@@ -74,7 +73,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 2px;
+  padding: 24px 0 24px 0;
   border-bottom: 1px solid var(--color-cornflower);
 }
 .nav {
@@ -90,21 +89,19 @@ button {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  display: flex;
+  display: inline-block;
   align-items: center;
   color: var(--color-iris);
 }
 .hed {
   color: var(--color-navy-blue);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .page {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  margin-left: 191px;
+  margin-left: 76px;
 }
 .nav-page {
   font-weight: 500;
@@ -152,7 +149,7 @@ button {
   align-items: center;
 }
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -170,7 +167,9 @@ button {
   background: var(--color-iris);
   color: var(--color-white);
   cursor: pointer;
+  border: none;
   min-width: 169px;
+  max-height: 56px;
   padding: 16px 32px;
   border-radius: 4px;
   margin-top: 48px;
@@ -190,7 +189,7 @@ button {
   justify-content: space-between;
   align-items: center;
   min-width: 264px;
-  gap: 24px;
+  flex-basis: calc((100%-72px) / 4);
 }
 .prof-caption {
   font-weight: 500;
@@ -224,6 +223,7 @@ button {
 .prod-cont {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 /* S4 Team Section */
 .team {
@@ -245,6 +245,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
   min-width: 264px;
 }
 .team-pic {
@@ -283,6 +284,7 @@ button {
 }
 .fot {
   color: var(--color-cloud);
+  margin-bottom: 16px;
 }
 .foot-text {
   width: 264px;
