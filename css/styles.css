@@ -192,6 +192,8 @@ button {
   align-items: center;
   min-width: 264px;
   gap: 24px;
+}
+.prof-cont > .prof-item {
   flex-basis: calc((100%-72px) / 4);
 }
 .prof-caption {
