@@ -321,7 +321,7 @@ body {
 }
 /* Filter Section */
 .section-portfolio {
-  padding: 96px 0 120px 0;
+  padding: 96px 120px;
 }
 .filter {
   display: flex;
@@ -361,13 +361,13 @@ body {
 }
 .card-item {
   display: block;
-  border: 1px solid var(--color-cornflower);
   flex-basis: calc((100%-2 * 24px) / 3);
   max-width: 360px;
 }
 .description {
   display: block;
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
+  border: 1px solid var(--color-cornflower);
 }
 .card-caption {
   font-weight: 500;
