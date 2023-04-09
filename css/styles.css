@@ -321,7 +321,7 @@ body {
 }
 /* Filter Section */
 .section-portfolio {
-  padding: 96px 120px;
+  padding: 96px 0 120px 0;
 }
 .filter {
   display: flex;
